@@ -1,0 +1,29 @@
+$kind: http-request
+description: ""
+url: "{{baseUrl}}/v1/users/register"
+method: POST
+headers:
+  Content-Type: application/json
+  Accept: application/json
+body:
+  type: json
+  content: |-
+    {
+      "username": "string",
+      "password": "string"
+    }
+  $type: |-
+    {
+      "type": "object",
+      "properties": {
+        "username": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        }
+      }
+    }
+settings: {}
+examples: ./.resources/Register a new user.resources/examples
+order: 1000

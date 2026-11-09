@@ -1,0 +1,12 @@
+workspace:
+  id: 95c742d5-9a47-4de9-8c57-2de8e87853a7
+localResources:
+  specs:
+    - ../contract/index.yaml
+cloudResources:
+  collections:
+    ../postman/collections/User API - Blueprint: 53785387-8d4a6300-7948-4c78-b520-dcc7cb6b6dfc
+  specs:
+    ../contract/index.yaml: 55e47a1b-70c3-40fb-9637-085a13098a99
+  globals:
+    ../postman/globals/workspace.globals.yaml: 579970ae-612b-43a7-8fcd-b36415566df0
